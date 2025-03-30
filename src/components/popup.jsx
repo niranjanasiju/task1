@@ -83,6 +83,9 @@ const CodeExportModal = ({ onClose }) => {
                   </label>
                 </div>
               </div>
+              <div className="modal-footer">
+                <button className="download-button">Download HTML CSS Project</button>
+              </div>
             </div>
 
             <div className="tab-content" style={{ display: activeTab === "nextjs" ? "block" : "none" }}>
@@ -131,12 +134,13 @@ const CodeExportModal = ({ onClose }) => {
                   </label>
                 </div>
               </div>
+                <div className="modal-footer">
+                    <button className="download-button">Download Next JS Project</button>
+                </div>
             </div>
           </div>
 
-          <div className="modal-footer">
-            <button className="download-button">Download Next JS Project</button>
-          </div>
+          
         </div>
       </div>
     </div>
